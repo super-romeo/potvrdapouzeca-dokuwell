@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za internet prodavnice u Srbiji: kupac potvrđuje porudžbinu pouzećem dugmetom u Viberu ili SMS-u pre predaje kuriru, a odbijeni paketi su vidljivi.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">PotvrdaPouzećem</a></div>
-  <nav class="top"><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">PotvrdaPouzećem</a>
+  <nav><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Kupac potvrdi porudžbinu pouzećem pre nego što paket ode kuriru</h1>
-    <p class="sub">Za prodavnice na WooCommerce-u ili sopstvenom sajtu koje šalju pakete pouzećem: posle porudžbine kupac dobija Viber poruku ili SMS sa dugmetom „Potvrđujem“, nepotvrđene porudžbine se otkazuju ili idu na poziv, a vi vidite ko je ranije odbio paket i kod kog kurira se paketi najčešće vraćaju.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Ovo mi treba</a>
-    <p class="cta-note">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za prodavnice na WooCommerce-u</p>
+      <h1 class="rise" style="--i:1">Kupac potvrdi porudžbinu pouzećem pre nego što paket ode kuriru</h1>
+      <p class="rise" style="--i:2">Za prodavnice na WooCommerce-u ili sopstvenom sajtu koje šalju pakete pouzećem: posle porudžbine kupac dobija Viber poruku ili SMS sa dugmetom „Potvrđujem“, nepotvrđene porudžbine se otkazuju ili idu na poziv, a vi vidite ko je ranije odbio paket i kod kog kurira se paketi najčešće vraćaju.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Ovo mi treba</a>
+      <p class="meta rise" style="--i:4">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">PotvrdaPouzećem</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" fill="#0a1524">Viber poruka</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">SMS</text><rect x="130" y="440" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="472" font-size="32" fill="#0a1524">kuriru</text><rect x="130" y="530" width="44" height="44" rx="8" fill="#12397a" /><text x="200" y="562" font-size="32" fill="#0a1524">Potvrđujem</text><rect x="780" y="270" width="240" height="380" rx="32" fill="#dfe8f7" /><rect x="810" y="320" width="180" height="90" rx="16" fill="#ffffff" /><rect x="810" y="440" width="180" height="48" rx="12" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Za</dt><dd>Internet prodavnice</dd></div>
+      <div><dt>Šta</dt><dd>Potvrdi porudžbinu</dd></div>
+      <div><dt>Kako</dt><dd>Viber poruku ili SMS</dd></div>
+      <div><dt>Pristup</dt><dd>Rani pristup</dd></div>
+    </dl>
+  </section>
 
   <section id="sta" data-view="features_view">
-    <h2>Šta dobijate</h2>
-    <div class="grid">
-      <div class="card"><b>Potvrda dugmetom</b><span>Viber poruka ili SMS sa dugmetom posle svake porudžbine pouzećem.</span><br><a class="btn" href="price.html" data-ev="feature_potvrda">Ovo mi treba</a></div>
-      <div class="card"><b>Nepotvrđene porudžbine</b><span>Otkazivanje ili spisak za poziv pre predaje kuriru.</span><br><a class="btn" href="price.html" data-ev="feature_nepotvrdjene">Ovo mi treba</a></div>
-      <div class="card"><b>Odbijeni paketi</b><span>Evidencija kupaca koji su ranije odbili paket.</span><br><a class="btn" href="price.html" data-ev="feature_odbijeni">Ovo mi treba</a></div>
-      <div class="card"><b>Kuriri i proizvodi</b><span>Udeo odbijenih paketa po kuriru i po proizvodu.</span><br><a class="btn" href="price.html" data-ev="feature_kuriri">Ovo mi treba</a></div>
+    <div class="stack"><h2>Šta dobijate</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="34" font-weight="600" fill="#0a1524">Potvrda dugmetom</text><rect x="160" y="180" width="420" height="110" rx="20" fill="#dfe8f7" /><polygon points="200,290 180,330 250,290" fill="#dfe8f7" /><rect x="200" y="360" width="220" height="56" rx="14" fill="#12397a" /><text x="160" y="480" font-size="30" fill="#566174">Viber poruka</text></svg></div>
+        <h3>Potvrda dugmetom</h3><p>Viber poruka ili SMS sa dugmetom posle svake porudžbine pouzećem.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_potvrda">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="130" font-size="32" font-weight="600" fill="#0a1524">Nepotvrđene porudžbine</text><rect x="140" y="190" width="230" height="220" rx="16" fill="#eef2f7" /><line x1="180" y1="240" x2="230" y2="290" stroke="#12397a" stroke-width="6" /><line x1="230" y1="240" x2="180" y2="290" stroke="#12397a" stroke-width="6" /><rect x="250" y="250" width="90" height="16" rx="6" fill="#b9c3d2" /><rect x="400" y="190" width="250" height="220" rx="16" fill="#dfe8f7" /><circle cx="460" cy="260" r="18" fill="#ffffff" /><rect x="500" y="250" width="110" height="16" rx="6" fill="#ffffff" /><text x="140" y="470" font-size="30" fill="#566174">za poziv</text></svg></div>
+        <h3>Nepotvrđene porudžbine</h3><p>Otkazivanje ili spisak za poziv pre predaje kuriru.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_nepotvrdjene">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Odbijeni paketi</text><rect x="140" y="200" width="400" height="28" rx="8" fill="#dde2ea" /><rect x="140" y="260" width="340" height="28" rx="8" fill="#b9c3d2" /><rect x="140" y="320" width="420" height="28" rx="8" fill="#12397a" /><polygon points="590,318 640,346 590,374" fill="#dfe8f7" /><text x="140" y="450" font-size="30" fill="#566174">ranije odbili</text></svg></div>
+        <h3>Odbijeni paketi</h3><p>Evidencija kupaca koji su ranije odbili paket.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_odbijeni">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="60" width="640" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="34" font-weight="600" fill="#0a1524">Kuriri i proizvodi</text><line x1="160" y1="460" x2="640" y2="460" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="280" width="70" height="180" rx="8" fill="#b9c3d2" /><rect x="320" y="200" width="70" height="260" rx="8" fill="#12397a" /><rect x="440" y="340" width="70" height="120" rx="8" fill="#dde2ea" /><rect x="560" y="240" width="70" height="220" rx="8" fill="#dfe8f7" /><text x="160" y="510" font-size="30" fill="#566174">udeo odbijenih</text></svg></div>
+        <h3>Kuriri i proizvodi</h3><p>Udeo odbijenih paketa po kuriru i po proizvodu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kuriri">Ovo mi treba</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Primer (izmišljeni podaci)</h2>
-    <p class="fine">Mala prodavnica kozmetike dobije trideset porudžbina pouzećem za jedan dan. Svaki kupac dobija Viber poruku sa dugmetom za potvrdu. Dvadeset šest kupaca potvrdi, dvoje ne odgovori, a jedan broj je u evidenciji jer je pre dva meseca odbio paket. Kurir preuzima dvadeset šest paketa, a tri porudžbine prodavac prvo proveri telefonom.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primer</h2>
+      <p>Mala prodavnica kozmetike dobije trideset porudžbina pouzećem za jedan dan. Svaki kupac dobija Viber poruku sa dugmetom za potvrdu. Dvadeset šest kupaca potvrdi, dvoje ne odgovori, a jedan broj je u evidenciji jer je pre dva meseca odbio paket. Kurir preuzima dvadeset šest paketa, a tri porudžbine prodavac prvo proveri telefonom.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="250" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">trideset</text><text x="600" y="250" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">Dvadeset šest</text><text x="960" y="250" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">telefonom</text><rect x="120" y="310" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" font-weight="600" fill="#0a1524">dvadeset šest paketa</text><text x="170" y="500" font-size="32" fill="#566174">tri porudžbine</text><rect x="170" y="570" width="200" height="22" rx="8" fill="#dfe8f7" /><rect x="390" y="570" width="140" height="22" rx="8" fill="#dde2ea" /><rect x="550" y="570" width="180" height="22" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako radi</h2>
-    <p>Mnoge internet prodavnice u Srbiji naplaćuju pouzećem: kupac plaća kuriru kada paket stigne. To je kupcima zgodno, ali prodavnica snosi rizik. Ako kupac paket ne preuzme, prodavnica plaća slanje i povratak, a roba danima putuje i ne može da se proda.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako radi</h2></div>
+    <div class="stack">
+      <p>Mnoge internet prodavnice u Srbiji naplaćuju pouzećem: kupac plaća kuriru kada paket stigne. To je kupcima zgodno, ali prodavnica snosi rizik. Ako kupac paket ne preuzme, prodavnica plaća slanje i povratak, a roba danima putuje i ne može da se proda.</p>
     <p>Deo takvih porudžbina nikada nije ni trebalo poslati: pogrešan broj telefona, porudžbina napravljena iz radoznalosti, dupla porudžbina ili kupac koji se predomislio pre nego što je paket spakovan. Najjednostavnija zaštita je da kupac potvrdi porudžbinu pre nego što paket ode kuriru.</p>
     <p>Usluga to radi automatski. Kada stigne nova porudžbina pouzećem, kupac dobija Viber poruku, a ako Viber nije dostupan, SMS. U poruci su proizvodi, iznos za plaćanje i adresa, i dugme za potvrdu.</p>
     <p>Potvrđene porudžbine idu u pakovanje i predaju kuriru kao i do sada. Porudžbine koje kupac nije potvrdio u roku koji ste vi odredili usluga po vašem izboru otkazuje ili stavlja na spisak za poziv, pa ih neko iz prodavnice pozove pre slanja.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Na kraju svakog dana vidite kratak pregled: koliko je porudžbina pouzećem stiglo, koliko je potvrđeno, koliko je otkazano, koliko čeka poziv i koliko paketa je kupac odbio. Tako se odmah vidi da li se problem povećava ili smanjuje, i da li je promena kurira ili teksta poruke pomogla.</p>
     <p>Kupčevi podaci koriste se samo za potvrdu porudžbine i evidenciju preuzimanja i ne prosleđuju se trećim licima.</p>
     <p>Usluga je namenjena internet prodavnicama u Srbiji koje šalju robu pouzećem. Ona je u pripremi: prvo proveravamo da li je prodavnicama potrebna. Za porudžbine, slanje i odnos sa kupcima odgovorna je prodavnica.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pitanja i odgovori</h2>
-    <h3>Kako kupac potvrđuje porudžbinu?</h3>
-    <p>Dugmetom u Viber poruci, a ako Viber nije dostupan, u SMS-u.</p>
-    <h3>Šta se dešava sa nepotvrđenim porudžbinama?</h3>
-    <p>Po vašem izboru otkazuju se ili idu na spisak za poziv pre predaje kuriru.</p>
-    <h3>Da li radi sa WooCommerce-om?</h3>
-    <p>Da, preko dodatka koji čita nove porudžbine i menja njihov status. Sopstveni sajt se povezuje slanjem porudžbina usluzi.</p>
-    <h3>Šta je evidencija odbijenih paketa?</h3>
-    <p>Spisak kupaca koji su ranije odbili paket i udeo odbijenih paketa po kuriru i proizvodu.</p>
-    <h3>Mogu li već da je koristim?</h3>
-    <p>Još ne. Usluga je u pripremi i proveravamo da li je prodavnicama potrebna.</p>
+    <div class="stack"><h2>Pitanja i odgovori</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Kako kupac potvrđuje porudžbinu?</h3><p>Dugmetom u Viber poruci, a ako Viber nije dostupan, u SMS-u.</p></div>
+      <div class="split flip"><h3>Šta se dešava sa nepotvrđenim porudžbinama?</h3><p>Po vašem izboru otkazuju se ili idu na spisak za poziv pre predaje kuriru.</p></div>
+      <div class="split flip"><h3>Da li radi sa WooCommerce-om?</h3><p>Da, preko dodatka koji čita nove porudžbine i menja njihov status. Sopstveni sajt se povezuje slanjem porudžbina usluzi.</p></div>
+      <div class="split flip"><h3>Šta je evidencija odbijenih paketa?</h3><p>Spisak kupaca koji su ranije odbili paket i udeo odbijenih paketa po kuriru i proizvodu.</p></div>
+      <div class="split flip"><h3>Mogu li već da je koristim?</h3><p>Još ne. Usluga je u pripremi i proveravamo da li je prodavnicama potrebna.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Prijavite svoju prodavnicu</h2>
-    <p><label>Porudžbina pouzećem mesečno<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izaberite —</option><option>Do 100</option><option>100–500</option><option>500–2 000</option><option>Više od 2 000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Počnite</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Prijavite svoju prodavnicu</h2>
+    </div>
+    <div class="tile stack">
+      <label>Porudžbina pouzećem mesečno<select data-ev-focus="form_start"><option value="">— izaberite —</option><option>Do 100</option><option>100–500</option><option>500–2 000</option><option>Više od 2 000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Počnite</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>PotvrdaPouzećem</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Politika privatnosti</a></p>
-  <p class="muted">Potvrda porudžbina i evidencija preuzimanja po podacima vaše prodavnice. Za porudžbine, slanje i odnos sa kupcima odgovorna je prodavnica.</p>
+  <p>Potvrda porudžbina i evidencija preuzimanja po podacima vaše prodavnice. Za porudžbine, slanje i odnos sa kupcima odgovorna je prodavnica.</p>
 </div></footer>
 
 </body>
